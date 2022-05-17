@@ -156,10 +156,11 @@ img{
 .cardVideo{
     transform: none;
     width: 820px;
-    margin:10px 0 10px 0;
+    margin:75px 0 10px 0;
     background-color: #1c1b29;
     border-radius: 10px;
 }
+
     /* El contenedor con el padding-top crea el tamaño del vídeo */
 .video{
     height:0px;
@@ -169,7 +170,7 @@ img{
     position:relative;
 }
     /* El iframe se adapta al tamaño del contenedor */
-video{
+iframe{
     position:absolute;
     height:100%;
     width:100%;
@@ -184,6 +185,7 @@ video{
     align-items: center;
     color: white;
 }
+
 .contNav{
     position: fixed; 
     top: 0; 
@@ -268,4 +270,22 @@ video{
     .navbar-links.active {
         display: flex;
     }
+}
+
+.dedicatoria{
+    width: 90vw;
+}
+
+.dedicatoria p{
+    text-align: justify;
+    color: white;
+    text-shadow: 1px 1px 0px #a90038;
+    font-size: calc(1em + 1vw);
+    line-height: 1em;
+    padding: 1em;
+    margin: 2em 0 0 2em;
+    font-family: 'Source Serif Pro', serif;
+
+    /*font-family: 'DM Serif Display', serif;*/
+
 }
