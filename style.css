@@ -73,16 +73,11 @@ a:hover{
     transform: translateY(-2%);
 }
 
-.container{
-    position: relative;
-    clip-path: polygon(0 0,100% 0, 100%
-    90%, 0 100%);
-}
 
 img{
     width: 100%;
     display: block;
-    border-radius: 20px 20px 0 0;
+    border-radius: 20px 20px 20px 20px;
 }
 
 .container:after{
@@ -95,29 +90,6 @@ img{
     border-radius: 20px 20px 0 0;
     opacity: 0.2;
 }
-/*
-.card1>.container:after{
-    background-image: linear-gradient(
-        135deg,
-        #0100ec,
-        #fb36f4
-    );
-}
-.card2>.container:after{
-    background-image: linear-gradient(
-        135deg,
-        #2bdce3,
-        #42ffdb
-    );
-}
-.card3>.container:after{
-    background-image: linear-gradient(
-        135deg,
-        #ffab1d,
-        #f8501c
-    );
-}
- */
 
 .details{
     padding: 20px 10px;
@@ -285,7 +257,10 @@ iframe{
     padding: 1em;
     margin: 2em 0 0 2em;
     font-family: 'Source Serif Pro', serif;
-
+    
     /*font-family: 'DM Serif Display', serif;*/
+}
 
+.dedicatoria p:nth-child(2){
+    text-indent: 20px;
 }
